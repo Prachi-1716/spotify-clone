@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href=".\material\logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="nav-desktop">
+        <div class="part1">
+          <div class="logo"><img src="material\logo.png" alt="spotify" /></div>
+        </div>
+        <div class="part2">
+          <div class="home">
+            <i class="fa-solid fa-house"></i>
+          </div>
+          <div class="search-bar">
+            <div class="search">
+              <span class="material-symbols-outlined" id="searchic">
+                search
+              </span>
+              <input type="text" placeholder="What do you want to play?" />
+            </div>
+            <div class="icons">
+              <div class="vertical-bar">|</div>
+              <div><img src="material/ic.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="part3">
+          <div class="btns">
+            <button class="btn1">Explore Premium</button>
+            <button class="btn2">
+              <div><i class="fa-solid fa-circle-arrow-down"></i></div>
+              <div>Install App</div>
+            </button>
+          </div>
+          <div class="left-icons">
+            <div class="bell"><i class="fa-sharp fa-solid fa-bell"></i></div>
+            <div class="user"><i class="fa-solid fa-user"></i></div>
+          </div>
+        </div>
+      </nav>
+      <nav class="nav-mobile"></nav>
+
+      <div class="main">
+        <div class="left">
+          <div class="options">
+            <img src="material/library_icon.png" alt="library" id="lib" />
+            <div class="plus"><i class="fa-solid fa-plus" id="plus"></i></div>
+          </div>
+        </div>
+        <div class="right"></div>
+      </div>
+      <div class="playbar">
+        <div id="playbar">
+          <div class="play-controls">
+            <img src="" alt="">
+          </div>
+          <div class="progress-bar">
+            <input type="range">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
